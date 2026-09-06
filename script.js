@@ -5,52 +5,52 @@ const products = [
     category: "stand",
     desc: "Masaüstü düzeni ve konforlu kullanım sağlayan dayanıklı 3D baskı konsol tutucu.",
     tag: "Ergonomi",
-    image: "images/kol-destek.jpg",
+    image: "https://i.ibb.co/6cK5ZVh/kol-destek.jpg",
     url: "https://www.trendyol.com/magaza/torvessa-m-1206887"
   },
   {
     id: 2,
     title: "TORVESSA 4 Bölmeli Ayaklı Çerezlik",
     category: "mutfak",
-    desc: "Ortası kürdanlıklı, bölmeli geometrik ve şık siyah-karamel sunumluk.",
+    desc: "Ortası kürdanlıklı, bölmeli geometrik ve şık sunumluk.",
     tag: "Sunum",
-    image: "images/cerezlik.jpg",
+    image: "https://i.ibb.co/3Wq80dZ/cerezlik.jpg",
     url: "https://www.trendyol.com/magaza/torvessa-m-1206887"
   },
   {
     id: 3,
     title: "TORVESSA Meyve Yıkama & Süzgeç Kabı",
     category: "mutfak",
-    desc: "Vortex akış sistemli, gıdaya uygun çevre dostu PLA bio-plastik yıkama kasesi.",
+    desc: "Vortex akış sistemli, gıdaya uygun PLA bio-plastik yıkama kasesi.",
     tag: "Mutfak",
-    image: "images/meyve-kabi.jpg",
+    image: "https://i.ibb.co/v4J4pG6/meyve-kabi.jpg",
     url: "https://www.trendyol.com/magaza/torvessa-m-1206887"
   },
   {
     id: 4,
     title: "Mat Siyah Fiyonk Makyaj Düzenleyici",
     category: "organizer",
-    desc: "Kozmetik fırçaları ve aksesuarlar için modern fiyonk tasarımlı masaüstü kutusu.",
+    desc: "Kozmetik fırçaları ve aksesuarlar için modern fiyonk tasarımlı düzenleyici.",
     tag: "Makyaj",
-    image: "images/fiyonk.jpg",
+    image: "https://i.ibb.co/k2hZpTf/fiyonk.jpg",
     url: "https://www.trendyol.com/magaza/torvessa-m-1206887"
   },
   {
     id: 5,
     title: "TORVESSA Duvar Tipi Modüler Raf",
     category: "dekor",
-    desc: "Banyo, mutfak ve çalışma alanları için estetik ve sağlam duvar rafı.",
+    desc: "Banyo, mutfak ve çalışma alanları için estetik ve sağlam raf.",
     tag: "Dekorasyon",
-    image: "images/duvar-rafi.jpg",
+    image: "https://i.ibb.co/RcmZ2b5/duvar-rafi.jpg",
     url: "https://www.trendyol.com/magaza/torvessa-m-1206887"
   },
   {
     id: 6,
     title: "TORVESSA Kuğu Tasarımlı Organizer",
     category: "mutfak",
-    desc: "Kaşıklık ve banyo aksesuarları için zarif kuğu figürlü çok amaçlı hazne.",
+    desc: "Mutfak kaşıklık ve banyo gereçleri için zarif kuğu figürlü çok amaçlı hazne.",
     tag: "Mutfak / Banyo",
-    image: "images/kugu.jpg",
+    image: "https://i.ibb.co/F8bV6Z4/kugu.jpg",
     url: "https://www.trendyol.com/magaza/torvessa-m-1206887"
   },
   {
@@ -59,7 +59,7 @@ const products = [
     category: "dekor",
     desc: "Detaylı kabartma 3D samuray ve sakura ağacı figürlü püsküllü kitap ayracı.",
     tag: "Aksesuar",
-    image: "images/ayrac.jpg",
+    image: "https://i.ibb.co/M9B7k7t/ayrac.jpg",
     url: "https://www.trendyol.com/magaza/torvessa-m-1206887"
   }
 ];
