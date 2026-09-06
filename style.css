@@ -52,12 +52,23 @@ body {
   align-items: center;
 }
 
+/* LOGO DÜZENLEMESİ BURADA */
 .logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
   text-decoration: none;
   font-weight: 800;
   letter-spacing: 2px;
   font-size: 1.35rem;
   color: var(--text-pure);
+}
+
+.logo-img {
+  height: 45px; 
+  width: auto;
+  border-radius: 50%;
+  object-fit: contain;
 }
 
 .nav-links {
@@ -241,7 +252,7 @@ body {
 .product-img-wrap {
   position: relative;
   width: 100%;
-  aspect-ratio: 1 / 1; /* Bütün resimleri kare yapar */
+  aspect-ratio: 1 / 1; 
   background: #181a1b;
   overflow: hidden;
 }
@@ -249,7 +260,7 @@ body {
 .product-img-wrap img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Resmi sündürmeden tam doldurur */
+  object-fit: cover; 
   object-position: center;
 }
 
