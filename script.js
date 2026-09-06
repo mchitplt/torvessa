@@ -1,56 +1,66 @@
+// Trendyol sunucularındaki birebir ürün görselleri ve linkleri
 const products = [
   {
     id: 1,
     title: "TORVESSA Oyun Kol Destek Standı",
     category: "stand",
-    desc: "Masaüstü ergonomisini artıran, dayanıklı ve şık 3D üretim destek standı.",
+    desc: "Masaüstü düzeni ve konforlu kullanım sağlayan dayanıklı 3D baskı konsol tutucu.",
     tag: "Ergonomi",
-    image: "images/kol-destek.jpg",
+    image: "https://cdn.dsmcdn.com/ty1480/product/media/images/prod/QC/20240808/17/740aa92c-567e-3990-b964-b52504815a5f/1_org_zoom.jpg",
     url: "https://www.trendyol.com/magaza/torvessa-m-1206887"
   },
   {
     id: 2,
-    title: "TORVESSA Meyve Yıkama Kabı (PLA)",
-    category: "dekor",
-    desc: "3D baskı, gıdaya uygun çevre dostu PLA bio-plastik süzgeçli tasarım kase.",
-    tag: "Ev Gereçleri",
-    image: "images/meyve-kabi.jpg",
+    title: "TORVESSA 4 Bölmeli Ayaklı Çerezlik",
+    category: "mutfak",
+    desc: "Ortası kürdanlıklı, bölmeli geometrik ve şık siyah-karamel sunumluk.",
+    tag: "Sunum",
+    image: "https://cdn.dsmcdn.com/ty1476/product/media/images/prod/QC/20240806/16/0998db4c-687f-38ae-b514-6447814db5a5/1_org_zoom.jpg",
     url: "https://www.trendyol.com/magaza/torvessa-m-1206887"
   },
   {
     id: 3,
-    title: "Fiyonk Detaylı Makyaj Düzenleyici",
-    category: "organizer",
-    desc: "Makyaj fırçaları ve aksesuarlar için modern, pembe fiyonk tasarımlı düzenleyici.",
-    tag: "Makyaj",
-    image: "images/fiyonk-organizer.jpg",
+    title: "TORVESSA Meyve Yıkama & Süzgeç Kabı",
+    category: "mutfak",
+    desc: "Vortex akış sistemli, gıdaya uygun çevre dostu PLA bio-plastik yıkama kasesi.",
+    tag: "Mutfak",
+    image: "https://cdn.dsmcdn.com/ty1479/product/media/images/prod/QC/20240807/19/22d56a73-671c-3e6f-998e-4a67746cb927/1_org_zoom.jpg",
     url: "https://www.trendyol.com/magaza/torvessa-m-1206887"
   },
   {
     id: 4,
-    title: "TORVESSA Döner Makyaj Fırçalık Organizer",
+    title: "Mat Siyah Fiyonk Makyaj Düzenleyici",
     category: "organizer",
-    desc: "Kozmetik fırçaları düzenli tutan, minimalist dikey saklama kutusu.",
+    desc: "Kozmetik fırçaları ve aksesuarlar için modern fiyonk tasarımlı masaüstü kutusu.",
     tag: "Makyaj",
-    image: "images/fircalik.jpg",
+    image: "https://cdn.dsmcdn.com/ty1477/product/media/images/prod/QC/20240807/11/4f2b545f-7f55-3213-9aa6-01588c8eb2c7/1_org_zoom.jpg",
     url: "https://www.trendyol.com/magaza/torvessa-m-1206887"
   },
   {
     id: 5,
-    title: "Duvar Tipi Çok Amaçlı Dekoratif Raf",
+    title: "TORVESSA Duvar Tipi Modüler Raf",
     category: "dekor",
-    desc: "Banyo, mutfak veya çalışma odası için şık, sağlam modüler duvar rafı.",
+    desc: "Banyo, mutfak ve çalışma alanları için estetik ve sağlam duvar rafı.",
     tag: "Dekorasyon",
-    image: "images/duvar-rafi.jpg",
+    image: "https://cdn.dsmcdn.com/ty1478/product/media/images/prod/QC/20240807/18/8877395a-c5c2-3e28-9844-3d02b936d539/1_org_zoom.jpg",
     url: "https://www.trendyol.com/magaza/torvessa-m-1206887"
   },
   {
     id: 6,
-    title: "Kuğu Tasarımlı Kaşıklık & Banyo Organizeri",
+    title: "TORVESSA Kuğu Tasarımlı Organizer",
+    category: "mutfak",
+    desc: "Kaşıklık ve banyo aksesuarları için zarif kuğu figürlü çok amaçlı hazne.",
+    tag: "Mutfak / Banyo",
+    image: "https://cdn.dsmcdn.com/ty1479/product/media/images/prod/QC/20240808/11/cb562211-536f-31ad-94ec-3323a7bb184e/1_org_zoom.jpg",
+    url: "https://www.trendyol.com/magaza/torvessa-m-1206887"
+  },
+  {
+    id: 7,
+    title: "Sakura Samuray Figürlü Kitap Ayracı",
     category: "dekor",
-    desc: "Zarif kuğu siluetiyle tasarlanmış, estetik mutfak ve makyaj düzenleyici.",
-    tag: "Dekorasyon",
-    image: "images/kugu-organizer.jpg",
+    desc: "Detaylı kabartma 3D samuray ve sakura ağacı figürlü püsküllü kitap ayracı.",
+    tag: "Aksesuar",
+    image: "https://cdn.dsmcdn.com/ty1476/product/media/images/prod/QC/20240806/17/373b5ce8-795a-3507-b3ea-156372ee0d20/1_org_zoom.jpg",
     url: "https://www.trendyol.com/magaza/torvessa-m-1206887"
   }
 ];
@@ -59,6 +69,7 @@ const productGrid = document.getElementById('productGrid');
 const filterBtns = document.querySelectorAll('.filter-btn');
 
 function renderProducts(filter = 'all') {
+  if (!productGrid) return;
   productGrid.innerHTML = '';
   
   const filtered = filter === 'all' 
@@ -71,13 +82,13 @@ function renderProducts(filter = 'all') {
     card.innerHTML = `
       <div class="product-img-wrap">
         <span class="card-badge-top">${p.tag}</span>
-        <img src="${p.image}" alt="${p.title}" loading="lazy" onerror="this.src='https://via.placeholder.com/400x300?text=Görsel+Yüklenemedi'">
+        <img src="${p.image}" alt="${p.title}" loading="lazy" referrerpolicy="no-referrer">
       </div>
       <div class="product-info">
-        <span class="product-category">3D BASKI SERİSİ</span>
+        <span class="product-category">3D ÜRETİM SERİSİ</span>
         <h3>${p.title}</h3>
         <p>${p.desc}</p>
-        <a href="${p.url}" target="_blank" class="btn-trendyol-card">
+        <a href="${p.url}" target="_blank" rel="noopener noreferrer" class="btn-trendyol-card">
           <span>Trendyol'da İncele</span>
           &rarr;
         </a>
