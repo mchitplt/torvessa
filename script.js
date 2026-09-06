@@ -1,4 +1,3 @@
-// Trendyol sunucularındaki birebir ürün görselleri ve linkleri
 const products = [
   {
     id: 1,
@@ -6,7 +5,7 @@ const products = [
     category: "stand",
     desc: "Masaüstü düzeni ve konforlu kullanım sağlayan dayanıklı 3D baskı konsol tutucu.",
     tag: "Ergonomi",
-    image: "https://cdn.dsmcdn.com/ty1480/product/media/images/prod/QC/20240808/17/740aa92c-567e-3990-b964-b52504815a5f/1_org_zoom.jpg",
+    image: "images/kol-destek.jpg",
     url: "https://www.trendyol.com/magaza/torvessa-m-1206887"
   },
   {
@@ -15,7 +14,7 @@ const products = [
     category: "mutfak",
     desc: "Ortası kürdanlıklı, bölmeli geometrik ve şık siyah-karamel sunumluk.",
     tag: "Sunum",
-    image: "https://cdn.dsmcdn.com/ty1476/product/media/images/prod/QC/20240806/16/0998db4c-687f-38ae-b514-6447814db5a5/1_org_zoom.jpg",
+    image: "images/cerezlik.jpg",
     url: "https://www.trendyol.com/magaza/torvessa-m-1206887"
   },
   {
@@ -24,7 +23,7 @@ const products = [
     category: "mutfak",
     desc: "Vortex akış sistemli, gıdaya uygun çevre dostu PLA bio-plastik yıkama kasesi.",
     tag: "Mutfak",
-    image: "https://cdn.dsmcdn.com/ty1479/product/media/images/prod/QC/20240807/19/22d56a73-671c-3e6f-998e-4a67746cb927/1_org_zoom.jpg",
+    image: "images/meyve-kabi.jpg",
     url: "https://www.trendyol.com/magaza/torvessa-m-1206887"
   },
   {
@@ -33,7 +32,7 @@ const products = [
     category: "organizer",
     desc: "Kozmetik fırçaları ve aksesuarlar için modern fiyonk tasarımlı masaüstü kutusu.",
     tag: "Makyaj",
-    image: "https://cdn.dsmcdn.com/ty1477/product/media/images/prod/QC/20240807/11/4f2b545f-7f55-3213-9aa6-01588c8eb2c7/1_org_zoom.jpg",
+    image: "images/fiyonk.jpg",
     url: "https://www.trendyol.com/magaza/torvessa-m-1206887"
   },
   {
@@ -42,7 +41,7 @@ const products = [
     category: "dekor",
     desc: "Banyo, mutfak ve çalışma alanları için estetik ve sağlam duvar rafı.",
     tag: "Dekorasyon",
-    image: "https://cdn.dsmcdn.com/ty1478/product/media/images/prod/QC/20240807/18/8877395a-c5c2-3e28-9844-3d02b936d539/1_org_zoom.jpg",
+    image: "images/duvar-rafi.jpg",
     url: "https://www.trendyol.com/magaza/torvessa-m-1206887"
   },
   {
@@ -51,7 +50,7 @@ const products = [
     category: "mutfak",
     desc: "Kaşıklık ve banyo aksesuarları için zarif kuğu figürlü çok amaçlı hazne.",
     tag: "Mutfak / Banyo",
-    image: "https://cdn.dsmcdn.com/ty1479/product/media/images/prod/QC/20240808/11/cb562211-536f-31ad-94ec-3323a7bb184e/1_org_zoom.jpg",
+    image: "images/kugu.jpg",
     url: "https://www.trendyol.com/magaza/torvessa-m-1206887"
   },
   {
@@ -60,7 +59,7 @@ const products = [
     category: "dekor",
     desc: "Detaylı kabartma 3D samuray ve sakura ağacı figürlü püsküllü kitap ayracı.",
     tag: "Aksesuar",
-    image: "https://cdn.dsmcdn.com/ty1476/product/media/images/prod/QC/20240806/17/373b5ce8-795a-3507-b3ea-156372ee0d20/1_org_zoom.jpg",
+    image: "images/ayrac.jpg",
     url: "https://www.trendyol.com/magaza/torvessa-m-1206887"
   }
 ];
@@ -82,7 +81,7 @@ function renderProducts(filter = 'all') {
     card.innerHTML = `
       <div class="product-img-wrap">
         <span class="card-badge-top">${p.tag}</span>
-        <img src="${p.image}" alt="${p.title}" loading="lazy" referrerpolicy="no-referrer">
+        <img src="${p.image}" alt="${p.title}" loading="lazy">
       </div>
       <div class="product-info">
         <span class="product-category">3D ÜRETİM SERİSİ</span>
