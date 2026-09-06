@@ -5,7 +5,7 @@ const products = [
     category: "stand",
     desc: "Masaüstü düzeni ve konforlu kullanım sağlayan dayanıklı 3D baskı konsol tutucu.",
     tag: "Ergonomi",
-    image: "https://cdn.dsmcdn.com/ty1480/product/media/images/prod/QC/20240808/17/740aa92c-567e-3990-b964-b52504815a5f/1_org_zoom.jpg",
+    image: "https://i.ibb.co/6cK5ZVh/kol-destek.jpg",
     url: "https://www.trendyol.com/torvessa/oyun-kol-destegi-p-1176938888?boutiqueId=61&merchantId=1296987"
   },
   {
@@ -14,7 +14,7 @@ const products = [
     category: "mutfak",
     desc: "Ortası kürdanlıklı, bölmeli geometrik ve şık sunumluk.",
     tag: "Sunum",
-    image: "https://cdn.dsmcdn.com/ty1476/product/media/images/prod/QC/20240806/16/0998db4c-687f-38ae-b514-6447814db5a5/1_org_zoom.jpg",
+    image: "https://i.ibb.co/3Wq80dZ/cerezlik.jpg",
     url: "https://www.trendyol.com/pd/torvessa/4-bolmeli-ayakli-cerezlik-ve-sunumluk-ortasi-kurdanlikli-siyah-karamel-p-1182018339?boutiqueId=61&merchantId=1296987"
   },
   {
@@ -23,7 +23,7 @@ const products = [
     category: "mutfak",
     desc: "Vortex akış sistemli, gıdaya uygun PLA bio-plastik yıkama kasesi.",
     tag: "Mutfak",
-    image: "https://cdn.dsmcdn.com/ty1479/product/media/images/prod/QC/20240807/19/22d56a73-671c-3e6f-998e-4a67746cb927/1_org_zoom.jpg",
+    image: "https://i.ibb.co/v4J4pG6/meyve-kabi.jpg",
     url: "https://www.trendyol.com/pd/torvessa/meyve-yikama-kabi-fruit-washing-bowl-pla-bitki-bazli-malzeme-pratik-su-tahliyeli-yikama-kasesi-beyaz-p-1183448972?boutiqueId=61&merchantId=1296987"
   },
   {
@@ -32,7 +32,7 @@ const products = [
     category: "organizer",
     desc: "Kozmetik fırçaları ve aksesuarlar için modern fiyonk tasarımlı düzenleyici.",
     tag: "Makyaj",
-    image: "https://cdn.dsmcdn.com/ty1477/product/media/images/prod/QC/20240807/11/4f2b545f-7f55-3213-9aa6-01588c8eb2c7/1_org_zoom.jpg",
+    image: "https://i.ibb.co/k2hZpTf/fiyonk.jpg",
     url: "https://www.trendyol.com/genel-markalar/torvessa-premium-fiyonk-makyaj-fircalik-organizer-p-1176263955?boutiqueId=61&merchantId=1296987"
   },
   {
@@ -41,7 +41,7 @@ const products = [
     category: "dekor",
     desc: "Banyo, mutfak ve çalışma alanları için estetik ve sağlam raf.",
     tag: "Dekorasyon",
-    image: "https://cdn.dsmcdn.com/ty1478/product/media/images/prod/QC/20240807/18/8877395a-c5c2-3e28-9844-3d02b936d539/1_org_zoom.jpg",
+    image: "https://i.ibb.co/RcmZ2b5/duvar-rafi.jpg",
     url: "https://www.trendyol.com/pd/torvessa/premium-duvar-tipi-cok-amacli-dekoratif-raf-p-1176940218?boutiqueId=61&merchantId=1296987"
   },
   {
@@ -50,7 +50,7 @@ const products = [
     category: "mutfak",
     desc: "Mutfak kaşıklık ve banyo gereçleri için zarif kuğu figürlü çok amaçlı hazne.",
     tag: "Mutfak / Banyo",
-    image: "https://cdn.dsmcdn.com/ty1479/product/media/images/prod/QC/20240808/11/cb562211-536f-31ad-94ec-3323a7bb184e/1_org_zoom.jpg",
+    image: "https://i.ibb.co/F8bV6Z4/kugu.jpg",
     url: "https://www.trendyol.com/pd/torvessa/dekoratif-kugu-tasarimli-kasiklik-ve-cok-amacli-mutfak-organizeri-p-1181530673?boutiqueId=61&merchantId=1296987"
   },
   {
@@ -59,7 +59,7 @@ const products = [
     category: "dekor",
     desc: "Detaylı kabartma 3D samuray ve sakura ağacı figürlü püsküllü kitap ayracı.",
     tag: "Aksesuar",
-    image: "https://cdn.dsmcdn.com/ty1476/product/media/images/prod/QC/20240806/17/373b5ce8-795a-3507-b3ea-156372ee0d20/1_org_zoom.jpg",
+    image: "https://i.ibb.co/M9B7k7t/ayrac.jpg",
     url: "https://www.trendyol.com/pd/torvessa/sakura-samuray-figurlu-puskullu-dekoratif-kitap-ayraci-p-1182026976?boutiqueId=61&merchantId=1296987"
   }
 ];
@@ -81,7 +81,7 @@ function renderProducts(filter = 'all') {
     card.innerHTML = `
       <div class="product-img-wrap">
         <span class="card-badge-top">${p.tag}</span>
-        <img src="${p.image}" alt="${p.title}" loading="lazy" referrerpolicy="no-referrer">
+        <img src="${p.image}" alt="${p.title}" loading="lazy">
       </div>
       <div class="product-info">
         <span class="product-category">3D ÜRETİM SERİSİ</span>
