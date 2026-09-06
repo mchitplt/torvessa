@@ -5,7 +5,7 @@ const products = [
     category: "stand",
     desc: "Masaüstü düzeni ve konforlu kullanım sağlayan dayanıklı 3D baskı konsol tutucu.",
     tag: "Ergonomi",
-    image: "images/kol-destek.jpg",
+    image: "images/kol-destek.jpg?v=1",
     url: "https://www.trendyol.com/torvessa/oyun-kol-destegi-p-1176938888?boutiqueId=61&merchantId=1296987"
   },
   {
@@ -14,7 +14,7 @@ const products = [
     category: "mutfak",
     desc: "Ortası kürdanlıklı, bölmeli geometrik ve şık sunumluk.",
     tag: "Sunum",
-    image: "images/cerezlik.jpg",
+    image: "images/cerezlik.jpg?v=1",
     url: "https://www.trendyol.com/pd/torvessa/4-bolmeli-ayakli-cerezlik-ve-sunumluk-ortasi-kurdanlikli-siyah-karamel-p-1182018339?boutiqueId=61&merchantId=1296987"
   },
   {
@@ -23,7 +23,7 @@ const products = [
     category: "mutfak",
     desc: "Vortex akış sistemli, gıdaya uygun PLA bio-plastik yıkama kasesi.",
     tag: "Mutfak",
-    image: "images/meyve-kabi.jpg",
+    image: "images/meyve-kabi.jpg?v=1",
     url: "https://www.trendyol.com/pd/torvessa/meyve-yikama-kabi-fruit-washing-bowl-pla-bitki-bazli-malzeme-pratik-su-tahliyeli-yikama-kasesi-beyaz-p-1183448972?boutiqueId=61&merchantId=1296987"
   },
   {
@@ -32,7 +32,7 @@ const products = [
     category: "organizer",
     desc: "Kozmetik fırçaları ve aksesuarlar için modern fiyonk tasarımlı düzenleyici.",
     tag: "Makyaj",
-    image: "images/fiyonk.jpg",
+    image: "images/fiyonk.jpg?v=1",
     url: "https://www.trendyol.com/genel-markalar/torvessa-premium-fiyonk-makyaj-fircalik-organizer-p-1176263955?boutiqueId=61&merchantId=1296987"
   },
   {
@@ -41,7 +41,7 @@ const products = [
     category: "dekor",
     desc: "Banyo, mutfak ve çalışma alanları için estetik ve sağlam raf.",
     tag: "Dekorasyon",
-    image: "images/duvar-rafi.jpg",
+    image: "images/duvar-rafi.jpg?v=1",
     url: "https://www.trendyol.com/pd/torvessa/premium-duvar-tipi-cok-amacli-dekoratif-raf-p-1176940218?boutiqueId=61&merchantId=1296987"
   },
   {
@@ -50,7 +50,7 @@ const products = [
     category: "mutfak",
     desc: "Mutfak kaşıklık ve banyo gereçleri için zarif kuğu figürlü çok amaçlı hazne.",
     tag: "Mutfak / Banyo",
-    image: "images/kugu.jpg",
+    image: "images/kugu.jpg?v=1",
     url: "https://www.trendyol.com/pd/torvessa/dekoratif-kugu-tasarimli-kasiklik-ve-cok-amacli-mutfak-organizeri-p-1181530673?boutiqueId=61&merchantId=1296987"
   },
   {
@@ -59,7 +59,7 @@ const products = [
     category: "dekor",
     desc: "Detaylı kabartma 3D samuray ve sakura ağacı figürlü püsküllü kitap ayracı.",
     tag: "Aksesuar",
-    image: "images/ayrac.jpg",
+    image: "images/ayrac.jpg?v=1",
     url: "https://www.trendyol.com/pd/torvessa/sakura-samuray-figurlu-puskullu-dekoratif-kitap-ayraci-p-1182026976?boutiqueId=61&merchantId=1296987"
   }
 ];
